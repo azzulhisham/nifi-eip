@@ -1,0 +1,11 @@
+/srv/uat-eip/EIP
+/srv/uat-eip/appsettings.Development.json
+/srv/uat-eip/appsettings.json
+/srv/uat-eip/EIP.dll
+/srv/uat-eip/EIP.deps.json
+/srv/uat-eip/EIP.runtimeconfig.json
+/srv/uat-eip/EIP.pdb
+/srv/uat-eip/Microsoft.OpenApi.dll
+/srv/uat-eip/Swashbuckle.AspNetCore.Swagger.dll
+/srv/uat-eip/Swashbuckle.AspNetCore.SwaggerGen.dll
+/srv/uat-eip/Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,0 +1,11 @@
+/home/zulan/uat-eip/EIP
+/home/zulan/uat-eip/appsettings.Development.json
+/home/zulan/uat-eip/appsettings.json
+/home/zulan/uat-eip/EIP.dll
+/home/zulan/uat-eip/EIP.deps.json
+/home/zulan/uat-eip/EIP.runtimeconfig.json
+/home/zulan/uat-eip/EIP.pdb
+/home/zulan/uat-eip/Microsoft.OpenApi.dll
+/home/zulan/uat-eip/Swashbuckle.AspNetCore.Swagger.dll
+/home/zulan/uat-eip/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/zulan/uat-eip/Swashbuckle.AspNetCore.SwaggerUI.dll
