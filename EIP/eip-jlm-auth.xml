@@ -5,31 +5,6 @@
     <name>eip-jlm-auth</name>
     <snippet>
         <connections>
-            <id>03b5513c-94c4-3339-0000-000000000000</id>
-            <parentGroupId>f87c6fd8-d961-38f7-0000-000000000000</parentGroupId>
-            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-            <destination>
-                <groupId>f87c6fd8-d961-38f7-0000-000000000000</groupId>
-                <id>2f4d2f14-bd53-36e0-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </destination>
-            <flowFileExpiration>0 sec</flowFileExpiration>
-            <labelIndex>1</labelIndex>
-            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-            <name></name>
-            <selectedRelationships>RequestUrl</selectedRelationships>
-            <source>
-                <groupId>f87c6fd8-d961-38f7-0000-000000000000</groupId>
-                <id>7b388fcd-3f21-3e51-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </source>
-            <zIndex>0</zIndex>
-        </connections>
-        <connections>
             <id>0797c117-6282-3160-0000-000000000000</id>
             <parentGroupId>f87c6fd8-d961-38f7-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
@@ -286,6 +261,31 @@
             <zIndex>0</zIndex>
         </connections>
         <connections>
+            <id>1dce13b8-03d3-3113-0000-000000000000</id>
+            <parentGroupId>f87c6fd8-d961-38f7-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>f87c6fd8-d961-38f7-0000-000000000000</groupId>
+                <id>2f4d2f14-bd53-36e0-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>unmatched</selectedRelationships>
+            <source>
+                <groupId>f87c6fd8-d961-38f7-0000-000000000000</groupId>
+                <id>9d5e82fa-3162-3b9e-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
             <id>2c494fc7-16dd-3fd7-0000-000000000000</id>
             <parentGroupId>f87c6fd8-d961-38f7-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
@@ -485,6 +485,31 @@
             <source>
                 <groupId>f87c6fd8-d961-38f7-0000-000000000000</groupId>
                 <id>2f4d2f14-bd53-36e0-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>4914f5d6-9155-35f9-0000-000000000000</id>
+            <parentGroupId>f87c6fd8-d961-38f7-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>f87c6fd8-d961-38f7-0000-000000000000</groupId>
+                <id>9d5e82fa-3162-3b9e-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>RequestUrl</selectedRelationships>
+            <source>
+                <groupId>f87c6fd8-d961-38f7-0000-000000000000</groupId>
+                <id>7b388fcd-3f21-3e51-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
@@ -738,6 +763,31 @@
             <source>
                 <groupId>f87c6fd8-d961-38f7-0000-000000000000</groupId>
                 <id>a61f7098-4ee1-3784-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>8d592cc9-e36c-3104-0000-000000000000</id>
+            <parentGroupId>f87c6fd8-d961-38f7-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>f87c6fd8-d961-38f7-0000-000000000000</groupId>
+                <id>5540dfc6-fd82-330a-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>tokenNotExists</selectedRelationships>
+            <source>
+                <groupId>f87c6fd8-d961-38f7-0000-000000000000</groupId>
+                <id>9d5e82fa-3162-3b9e-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
@@ -6534,6 +6584,68 @@
             <type>org.apache.nifi.processors.standard.HandleHttpResponse</type>
         </processors>
         <processors>
+            <id>9d5e82fa-3162-3b9e-0000-000000000000</id>
+            <parentGroupId>f87c6fd8-d961-38f7-0000-000000000000</parentGroupId>
+            <position>
+                <x>784.0</x>
+                <y>2536.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.14.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Routing Strategy</key>
+                        <value>
+                            <name>Routing Strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>tokenNotExists</key>
+                        <value>
+                            <name>tokenNotExists</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Routing Strategy</key>
+                        <value>Route to Property name</value>
+                    </entry>
+                    <entry>
+                        <key>tokenNotExists</key>
+                        <value>${http.headers.Authorization:isNull()}</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>ValidateIsTokenExists</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>tokenNotExists</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>unmatched</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
+        </processors>
+        <processors>
             <id>a0d8ff14-fd5b-335d-0000-000000000000</id>
             <parentGroupId>f87c6fd8-d961-38f7-0000-000000000000</parentGroupId>
             <position>
@@ -9440,5 +9552,5 @@
             <type>org.apache.nifi.processors.standard.ExecuteStreamCommand</type>
         </processors>
     </snippet>
-    <timestamp>07/28/2022 15:15:37 SGT</timestamp>
+    <timestamp>07/28/2022 20:40:58 SGT</timestamp>
 </template>
