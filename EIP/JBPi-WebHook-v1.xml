@@ -2,7 +2,7 @@
 <template encoding-version="1.3">
     <description></description>
     <groupId>08286d57-0180-1000-79e1-3a3a8d2592fb</groupId>
-    <name>JBPi-WebHook-007</name>
+    <name>JBPi-WebHook-v1</name>
     <snippet>
         <connections>
             <id>02cd791c-b36d-322c-0000-000000000000</id>
@@ -62,7 +62,7 @@
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
                 <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
-                <id>684ec6c9-8e4e-3aec-0000-000000000000</id>
+                <id>e6dbe8f5-c29b-39c9-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -82,13 +82,38 @@
             <zIndex>0</zIndex>
         </connections>
         <connections>
+            <id>18a11b10-ca63-3d80-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>fcefa7fd-0cd3-3426-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>matched</selectedRelationships>
+            <source>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>07e1b349-aa8c-309f-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
             <id>1f821292-993e-3eee-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
                 <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
-                <id>684ec6c9-8e4e-3aec-0000-000000000000</id>
+                <id>e6dbe8f5-c29b-39c9-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -113,7 +138,7 @@
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
                 <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
-                <id>4a1927ce-44f0-3117-0000-000000000000</id>
+                <id>bd3ff503-1d4c-39eb-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -258,13 +283,38 @@
             <zIndex>0</zIndex>
         </connections>
         <connections>
+            <id>3d718af2-06dc-31d1-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>684ec6c9-8e4e-3aec-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>unmatched</selectedRelationships>
+            <source>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>e6dbe8f5-c29b-39c9-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
             <id>40bda596-a8d9-3e8b-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
                 <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
-                <id>fcefa7fd-0cd3-3426-0000-000000000000</id>
+                <id>07e1b349-aa8c-309f-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -460,6 +510,32 @@
             <zIndex>0</zIndex>
         </connections>
         <connections>
+            <id>77de5d59-b7cf-3cb0-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>b45583ed-85a2-3197-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>No Retry</selectedRelationships>
+            <selectedRelationships>Retry</selectedRelationships>
+            <source>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>bd3ff503-1d4c-39eb-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
             <id>786167f5-3d82-3ed0-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
@@ -510,38 +586,13 @@
             <zIndex>0</zIndex>
         </connections>
         <connections>
-            <id>7d014833-c5b1-337e-0000-000000000000</id>
-            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
-            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-            <destination>
-                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
-                <id>684ec6c9-8e4e-3aec-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </destination>
-            <flowFileExpiration>0 sec</flowFileExpiration>
-            <labelIndex>1</labelIndex>
-            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-            <name></name>
-            <selectedRelationships>matched</selectedRelationships>
-            <source>
-                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
-                <id>d41bd461-deec-31b1-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </source>
-            <zIndex>0</zIndex>
-        </connections>
-        <connections>
             <id>7e34c564-faa8-36a8-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
                 <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
-                <id>684ec6c9-8e4e-3aec-0000-000000000000</id>
+                <id>e6dbe8f5-c29b-39c9-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -565,8 +616,8 @@
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <bends>
-                <x>2024.0</x>
-                <y>1352.0</y>
+                <x>1966.9944610595703</x>
+                <y>1732.5791015625</y>
             </bends>
             <destination>
                 <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
@@ -635,6 +686,31 @@
             <source>
                 <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
                 <id>c7507f3e-d0fc-3c8a-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>9e3e28d2-4eed-3659-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>46198e6e-5cd3-3af9-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>fe7528c8-9dcb-3166-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
@@ -821,13 +897,17 @@
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <bends>
+                <x>2478.356689453125</x>
+                <y>472.0</y>
+            </bends>
             <destination>
                 <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
-                <id>684ec6c9-8e4e-3aec-0000-000000000000</id>
+                <id>e6dbe8f5-c29b-39c9-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
-            <labelIndex>1</labelIndex>
+            <labelIndex>0</labelIndex>
             <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
             <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
             <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
@@ -848,7 +928,7 @@
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
                 <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
-                <id>684ec6c9-8e4e-3aec-0000-000000000000</id>
+                <id>e6dbe8f5-c29b-39c9-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -887,6 +967,31 @@
             <source>
                 <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
                 <id>b7e4cb8b-a80e-3def-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>e094b18e-0442-3363-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>bc3b1f79-58d3-371e-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>isDb1</selectedRelationships>
+            <source>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>e6dbe8f5-c29b-39c9-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
@@ -946,13 +1051,17 @@
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <bends>
+                <x>875.688720703125</x>
+                <y>1864.978271484375</y>
+            </bends>
             <destination>
                 <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
                 <id>7397187a-17b3-3b00-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
-            <labelIndex>1</labelIndex>
+            <labelIndex>0</labelIndex>
             <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
             <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
             <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
@@ -998,8 +1107,8 @@
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <bends>
-                <x>2056.0</x>
-                <y>2088.0</y>
+                <x>2741.4294509887695</x>
+                <y>2331.8330078125</y>
             </bends>
             <destination>
                 <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
@@ -1097,6 +1206,57 @@
             </source>
             <zIndex>0</zIndex>
         </connections>
+        <connections>
+            <id>f8d93188-8dac-3cff-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>585d9073-1bda-3b42-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>Failure</selectedRelationships>
+            <selectedRelationships>Response</selectedRelationships>
+            <source>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>741b892b-5573-319f-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>fdf0c527-50f8-386e-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>36d6cb03-2af6-3ba4-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>9421eb2d-b078-313a-0000-000000000000</groupId>
+                <id>bc3b1f79-58d3-371e-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
         <controllerServices>
             <id>3ddfd2da-d416-321e-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
@@ -1190,6 +1350,164 @@
             </properties>
             <state>ENABLED</state>
             <type>org.apache.nifi.ssl.StandardSSLContextService</type>
+        </controllerServices>
+        <controllerServices>
+            <id>7526c595-b6de-3f91-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <bundle>
+                <artifact>nifi-dbcp-service-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.0</version>
+            </bundle>
+            <comments></comments>
+            <descriptors>
+                <entry>
+                    <key>Database Connection URL</key>
+                    <value>
+                        <name>Database Connection URL</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Database Driver Class Name</key>
+                    <value>
+                        <name>Database Driver Class Name</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>database-driver-locations</key>
+                    <value>
+                        <name>database-driver-locations</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>kerberos-credentials-service</key>
+                    <value>
+                        <identifiesControllerService>org.apache.nifi.kerberos.KerberosCredentialsService</identifiesControllerService>
+                        <name>kerberos-credentials-service</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Database User</key>
+                    <value>
+                        <name>Database User</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Password</key>
+                    <value>
+                        <name>Password</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Max Wait Time</key>
+                    <value>
+                        <name>Max Wait Time</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Max Total Connections</key>
+                    <value>
+                        <name>Max Total Connections</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Validation-query</key>
+                    <value>
+                        <name>Validation-query</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>dbcp-min-idle-conns</key>
+                    <value>
+                        <name>dbcp-min-idle-conns</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>dbcp-max-idle-conns</key>
+                    <value>
+                        <name>dbcp-max-idle-conns</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>dbcp-max-conn-lifetime</key>
+                    <value>
+                        <name>dbcp-max-conn-lifetime</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>dbcp-time-between-eviction-runs</key>
+                    <value>
+                        <name>dbcp-time-between-eviction-runs</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>dbcp-min-evictable-idle-time</key>
+                    <value>
+                        <name>dbcp-min-evictable-idle-time</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>dbcp-soft-min-evictable-idle-time</key>
+                    <value>
+                        <name>dbcp-soft-min-evictable-idle-time</name>
+                    </value>
+                </entry>
+            </descriptors>
+            <name>Enav1SQL_DBCPConnectionPool</name>
+            <persistsState>false</persistsState>
+            <properties>
+                <entry>
+                    <key>Database Connection URL</key>
+                    <value>jdbc:sqlserver://202.71.109.150;port=13342;database=VTS;Uid=sa;Pwd=Enav-DB123Sql456!!!;trustServerCertificate=true;</value>
+                </entry>
+                <entry>
+                    <key>Database Driver Class Name</key>
+                    <value>com.microsoft.sqlserver.jdbc.SQLServerDriver</value>
+                </entry>
+                <entry>
+                    <key>database-driver-locations</key>
+                    <value>/mnt/sdb/utils/mssql-jdbc-10.2.0.jre8.jar</value>
+                </entry>
+                <entry>
+                    <key>kerberos-credentials-service</key>
+                </entry>
+                <entry>
+                    <key>Database User</key>
+                    <value>sa</value>
+                </entry>
+                <entry>
+                    <key>Password</key>
+                </entry>
+                <entry>
+                    <key>Max Wait Time</key>
+                </entry>
+                <entry>
+                    <key>Max Total Connections</key>
+                </entry>
+                <entry>
+                    <key>Validation-query</key>
+                </entry>
+                <entry>
+                    <key>dbcp-min-idle-conns</key>
+                </entry>
+                <entry>
+                    <key>dbcp-max-idle-conns</key>
+                </entry>
+                <entry>
+                    <key>dbcp-max-conn-lifetime</key>
+                </entry>
+                <entry>
+                    <key>dbcp-time-between-eviction-runs</key>
+                </entry>
+                <entry>
+                    <key>dbcp-min-evictable-idle-time</key>
+                </entry>
+                <entry>
+                    <key>dbcp-soft-min-evictable-idle-time</key>
+                </entry>
+            </properties>
+            <state>ENABLED</state>
+            <type>org.apache.nifi.dbcp.DBCPConnectionPool</type>
         </controllerServices>
         <controllerServices>
             <id>c555fe53-83b2-392c-0000-000000000000</id>
@@ -1481,12 +1799,12 @@
                     </value>
                 </entry>
             </descriptors>
-            <name>EnavSQL_DBCPConnectionPool</name>
+            <name>Enav2SQL_DBCPConnectionPool</name>
             <persistsState>false</persistsState>
             <properties>
                 <entry>
                     <key>Database Connection URL</key>
-                    <value>jdbc:sqlserver://60.54.119.46;port=23341;database=VTS;Uid=sa;Pwd=Enav-DB123Sql456!!!;trustServerCertificate=true;</value>
+                    <value>jdbc:sqlserver://117.53.152.175;port=1433;database=VTS;Uid=sa;Pwd=Enav-DB123Sql456!!!;trustServerCertificate=true;</value>
                 </entry>
                 <entry>
                     <key>Database Driver Class Name</key>
@@ -1541,8 +1859,8 @@
             <id>0b305ae9-89aa-3cf9-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1096.0</x>
-                <y>0.0</y>
+                <x>1310.356689453125</x>
+                <y>264.0</y>
             </position>
             <height>40.0</height>
             <label>Read imo from response</label>
@@ -1558,11 +1876,11 @@
             <id>0f5c990d-ddbd-3a47-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>2080.0</x>
-                <y>8.0</y>
+                <x>2774.356689453125</x>
+                <y>24.0</y>
             </position>
             <height>32.0</height>
-            <label>Get Zone name from database</label>
+            <label>Get Zone name from database 1</label>
             <style>
                 <entry>
                     <key>font-size</key>
@@ -1572,11 +1890,46 @@
             <width>216.0</width>
         </labels>
         <labels>
+            <id>116bc644-343c-38ea-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>1222.356689453125</x>
+                <y>640.0</y>
+            </position>
+            <height>48.0</height>
+            <label>Http response status 
+code 200 with content</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>14px</value>
+                </entry>
+            </style>
+            <width>168.0</width>
+        </labels>
+        <labels>
+            <id>1e3f16f2-49fe-3d80-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>3406.356689453125</x>
+                <y>2008.0</y>
+            </position>
+            <height>32.0</height>
+            <label>Post to local webhook</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>14px</value>
+                </entry>
+            </style>
+            <width>168.0</width>
+        </labels>
+        <labels>
             <id>21428fd2-bf78-39a3-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>0.0</x>
-                <y>1152.0</y>
+                <x>214.356689453125</x>
+                <y>1416.0</y>
             </position>
             <height>32.0</height>
             <label>Get Vessel Photo URL</label>
@@ -1592,8 +1945,8 @@
             <id>29b9f5a0-a377-3576-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1608.0</x>
-                <y>240.0</y>
+                <x>1606.356689453125</x>
+                <y>496.0</y>
             </position>
             <height>48.0</height>
             <label>Read official number 
@@ -1607,11 +1960,28 @@ from response</label>
             <width>152.0</width>
         </labels>
         <labels>
+            <id>2ccda525-74ce-3f05-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>2134.356689453125</x>
+                <y>528.0</y>
+            </position>
+            <height>32.0</height>
+            <label>No official number</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>14px</value>
+                </entry>
+            </style>
+            <width>160.0</width>
+        </labels>
+        <labels>
             <id>3344ed4e-05f4-3cd1-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1864.0</x>
-                <y>2184.0</y>
+                <x>2550.356689453125</x>
+                <y>2424.0</y>
             </position>
             <height>48.0</height>
             <label>Verify the status code is 201.
@@ -1628,25 +1998,26 @@ Otherwise, repeat the process.</label>
             <id>3948c66a-8786-3952-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1520.0</x>
-                <y>48.0</y>
+                <x>1534.356689453125</x>
+                <y>160.0</y>
             </position>
-            <height>32.0</height>
-            <label>Http response status code 200 but no content</label>
+            <height>48.0</height>
+            <label>Http response status 
+code 200 without content</label>
             <style>
                 <entry>
                     <key>font-size</key>
                     <value>14px</value>
                 </entry>
             </style>
-            <width>312.0</width>
+            <width>168.0</width>
         </labels>
         <labels>
             <id>4ef8be19-2ce2-3d62-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1112.0</x>
-                <y>1160.0</y>
+                <x>1326.356689453125</x>
+                <y>1424.0</y>
             </position>
             <height>32.0</height>
             <label>Save image as attribute</label>
@@ -1662,8 +2033,8 @@ Otherwise, repeat the process.</label>
             <id>5c979f74-6d55-36a1-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1328.0</x>
-                <y>896.0</y>
+                <x>1542.356689453125</x>
+                <y>1160.0</y>
             </position>
             <height>40.0</height>
             <label>Read callsign from response</label>
@@ -1676,11 +2047,28 @@ Otherwise, repeat the process.</label>
             <width>200.0</width>
         </labels>
         <labels>
+            <id>5e0ac3bd-ccf2-3f0b-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>1718.356689453125</x>
+                <y>992.0</y>
+            </position>
+            <height>32.0</height>
+            <label>No callsign</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>14px</value>
+                </entry>
+            </style>
+            <width>88.0</width>
+        </labels>
+        <labels>
             <id>622ef1df-907f-33ee-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1872.0</x>
-                <y>1456.0</y>
+                <x>2558.356689453125</x>
+                <y>1696.0</y>
             </position>
             <height>48.0</height>
             <label>Verify the status code is 201.
@@ -1697,8 +2085,8 @@ Otherwise, repeat the process.</label>
             <id>7124e2eb-3fe1-33ab-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1088.0</x>
-                <y>104.0</y>
+                <x>1302.356689453125</x>
+                <y>368.0</y>
             </position>
             <height>32.0</height>
             <label>Evaluate RestAPI response</label>
@@ -1714,8 +2102,8 @@ Otherwise, repeat the process.</label>
             <id>80fee81b-b511-3e46-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>2024.0</x>
-                <y>920.0</y>
+                <x>2902.356689453125</x>
+                <y>1176.0</y>
             </position>
             <height>48.0</height>
             <label>Read official number 
@@ -1732,8 +2120,8 @@ from response</label>
             <id>8c52e0cc-d80e-326b-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>880.0</x>
-                <y>1848.0</y>
+                <x>1094.356689453125</x>
+                <y>2112.0</y>
             </position>
             <height>32.0</height>
             <label>Convert Image to Base64</label>
@@ -1749,8 +2137,8 @@ from response</label>
             <id>8cc4e689-ccf0-395b-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>2936.0</x>
-                <y>1480.0</y>
+                <x>3398.356689453125</x>
+                <y>1792.0</y>
             </position>
             <height>32.0</height>
             <label>Post to local webhook</label>
@@ -1766,8 +2154,8 @@ from response</label>
             <id>97b8e7a2-76cb-377f-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1512.0</x>
-                <y>1152.0</y>
+                <x>2198.356689453125</x>
+                <y>1392.0</y>
             </position>
             <height>32.0</height>
             <label>Post to client Webhook - Update Visited Status</label>
@@ -1783,42 +2171,65 @@ from response</label>
             <id>9e734584-dc53-35bc-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>464.0</x>
-                <y>240.0</y>
+                <x>790.356689453125</x>
+                <y>448.0</y>
             </position>
-            <height>32.0</height>
-            <label>Invoke RestAPI call to get OfficialNumber, CallSign, IMO</label>
+            <height>96.0</height>
+            <label>Invoke RestAPI call to get : 
+1.) OfficialNumber 
+2.) CallSign 
+3.) IMO
+4.) Vessel Name</label>
             <style>
                 <entry>
                     <key>font-size</key>
                     <value>14px</value>
                 </entry>
             </style>
-            <width>384.0</width>
+            <width>184.0</width>
         </labels>
         <labels>
-            <id>b39c2e70-9e82-38b1-0000-000000000000</id>
+            <id>c4f6396f-a70b-3226-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>2064.0</x>
-                <y>88.0</y>
+                <x>1414.356689453125</x>
+                <y>936.0</y>
             </position>
-            <height>32.0</height>
-            <label>Execute SQL query to get Zone name.</label>
+            <height>48.0</height>
+            <label>Check match index 
+for callsign</label>
             <style>
                 <entry>
                     <key>font-size</key>
                     <value>14px</value>
                 </entry>
             </style>
-            <width>256.0</width>
+            <width>152.0</width>
+        </labels>
+        <labels>
+            <id>ca8bc979-ecc9-3ebf-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>2022.356689453125</x>
+                <y>0.0</y>
+            </position>
+            <height>40.0</height>
+            <label>Checking data source 
+whether from DB1 or DB2</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>14px</value>
+                </entry>
+            </style>
+            <width>216.0</width>
         </labels>
         <labels>
             <id>de10237f-b10e-3c8e-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>496.0</x>
-                <y>1848.0</y>
+                <x>710.356689453125</x>
+                <y>2112.0</y>
             </position>
             <height>32.0</height>
             <label>Get Vessel Image</label>
@@ -1834,8 +2245,8 @@ from response</label>
             <id>e049593d-3e1f-3fed-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>504.0</x>
-                <y>1320.0</y>
+                <x>718.356689453125</x>
+                <y>1584.0</y>
             </position>
             <height>32.0</height>
             <label>No Vessel Image</label>
@@ -1848,11 +2259,29 @@ from response</label>
             <width>152.0</width>
         </labels>
         <labels>
+            <id>e181975f-3dc1-30ec-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>2310.356689453125</x>
+                <y>832.0</y>
+            </position>
+            <height>48.0</height>
+            <label>Check match index 
+for official number</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>14px</value>
+                </entry>
+            </style>
+            <width>152.0</width>
+        </labels>
+        <labels>
             <id>eb5bbd1a-3a8c-30fb-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1872.0</x>
-                <y>1928.0</y>
+                <x>2558.356689453125</x>
+                <y>2168.0</y>
             </position>
             <height>48.0</height>
             <label>Post to client Webhook 
@@ -1866,11 +2295,28 @@ from response</label>
             <width>168.0</width>
         </labels>
         <labels>
+            <id>ec1a8224-5348-33b8-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>2782.356689453125</x>
+                <y>232.0</y>
+            </position>
+            <height>32.0</height>
+            <label>Get Zone name from database 2</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>14px</value>
+                </entry>
+            </style>
+            <width>216.0</width>
+        </labels>
+        <labels>
             <id>f9eadc5c-63a1-32bb-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>64.0</x>
-                <y>0.0</y>
+                <x>278.356689453125</x>
+                <y>264.0</y>
             </position>
             <height>40.0</height>
             <label>Capture Data Change at Enav SQL DB 
@@ -1887,8 +2333,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>053c338c-5e80-32eb-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1000.0</x>
-                <y>1200.0</y>
+                <x>1214.356689453125</x>
+                <y>1460.794189453125</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -1975,7 +2421,123 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>true</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
+        </processors>
+        <processors>
+            <id>07e1b349-aa8c-309f-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>3334.356689453125</x>
+                <y>560.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Destination</key>
+                        <value>
+                            <name>Destination</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Return Type</key>
+                        <value>
+                            <name>Return Type</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Path Not Found Behavior</key>
+                        <value>
+                            <name>Path Not Found Behavior</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Null Value Representation</key>
+                        <value>
+                            <name>Null Value Representation</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>callsign</key>
+                        <value>
+                            <name>callsign</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>imo</key>
+                        <value>
+                            <name>imo</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>vesselName</key>
+                        <value>
+                            <name>vesselName</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Destination</key>
+                        <value>flowfile-attribute</value>
+                    </entry>
+                    <entry>
+                        <key>Return Type</key>
+                        <value>auto-detect</value>
+                    </entry>
+                    <entry>
+                        <key>Path Not Found Behavior</key>
+                        <value>ignore</value>
+                    </entry>
+                    <entry>
+                        <key>Null Value Representation</key>
+                        <value>empty string</value>
+                    </entry>
+                    <entry>
+                        <key>callsign</key>
+                        <value>$.callsign</value>
+                    </entry>
+                    <entry>
+                        <key>imo</key>
+                        <value>$.imo</value>
+                    </entry>
+                    <entry>
+                        <key>vesselName</key>
+                        <value>$.vesselName</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>EvaluateJsonPath</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>matched</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>unmatched</name>
+            </relationships>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
         </processors>
@@ -1983,8 +2545,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>14a64a54-a665-3e34-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1008.0</x>
-                <y>976.0</y>
+                <x>1222.356689453125</x>
+                <y>1240.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -2081,7 +2643,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>true</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
         </processors>
@@ -2089,8 +2651,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>194fe518-bc5e-34a2-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1504.0</x>
-                <y>1672.0</y>
+                <x>2190.356689453125</x>
+                <y>1912.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -2203,7 +2765,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ReplaceText</type>
         </processors>
@@ -2211,8 +2773,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>2d6ea891-1416-3b50-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>488.0</x>
-                <y>296.0</y>
+                <x>702.356689453125</x>
+                <y>560.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -2315,7 +2877,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ReplaceText</type>
         </processors>
@@ -2323,8 +2885,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>33611c9a-4edc-327c-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1504.0</x>
-                <y>976.0</y>
+                <x>2702.356689453125</x>
+                <y>1240.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -2377,7 +2939,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
         </processors>
@@ -2385,8 +2947,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>339e16e1-e309-3925-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>8.0</x>
-                <y>1896.0</y>
+                <x>222.356689453125</x>
+                <y>2160.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -2473,7 +3035,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>true</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
         </processors>
@@ -2481,8 +3043,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>33fa861d-6432-377e-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1504.0</x>
-                <y>2392.0</y>
+                <x>2190.356689453125</x>
+                <y>2632.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -2587,7 +3149,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>true</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.LogAttribute</type>
         </processors>
@@ -2595,8 +3157,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>36d6cb03-2af6-3ba4-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>2552.0</x>
-                <y>48.0</y>
+                <x>3334.356689453125</x>
+                <y>152.0</y>
             </position>
             <bundle>
                 <artifact>nifi-avro-nar</artifact>
@@ -2658,7 +3220,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.avro.ConvertAvroToJSON</type>
         </processors>
@@ -2666,8 +3228,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>3a9102ee-47c6-3714-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1000.0</x>
-                <y>1896.0</y>
+                <x>1214.356689453125</x>
+                <y>2156.794189453125</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -2710,7 +3272,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.Base64EncodeContent</type>
         </processors>
@@ -2718,8 +3280,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>46198e6e-5cd3-3af9-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>8.0</x>
-                <y>296.0</y>
+                <x>222.356689453125</x>
+                <y>560.0</y>
             </position>
             <bundle>
                 <artifact>nifi-avro-nar</artifact>
@@ -2781,130 +3343,16 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.avro.ConvertAvroToJSON</type>
-        </processors>
-        <processors>
-            <id>4a1927ce-44f0-3117-0000-000000000000</id>
-            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
-            <position>
-                <x>2560.0</x>
-                <y>1728.0</y>
-            </position>
-            <bundle>
-                <artifact>nifi-standard-nar</artifact>
-                <group>org.apache.nifi</group>
-                <version>1.11.0</version>
-            </bundle>
-            <config>
-                <bulletinLevel>WARN</bulletinLevel>
-                <comments></comments>
-                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                <descriptors>
-                    <entry>
-                        <key>Log Level</key>
-                        <value>
-                            <name>Log Level</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Log Payload</key>
-                        <value>
-                            <name>Log Payload</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Attributes to Log</key>
-                        <value>
-                            <name>Attributes to Log</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>attributes-to-log-regex</key>
-                        <value>
-                            <name>attributes-to-log-regex</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Attributes to Ignore</key>
-                        <value>
-                            <name>Attributes to Ignore</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>attributes-to-ignore-regex</key>
-                        <value>
-                            <name>attributes-to-ignore-regex</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Log prefix</key>
-                        <value>
-                            <name>Log prefix</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>character-set</key>
-                        <value>
-                            <name>character-set</name>
-                        </value>
-                    </entry>
-                </descriptors>
-                <executionNode>ALL</executionNode>
-                <lossTolerant>false</lossTolerant>
-                <penaltyDuration>30 sec</penaltyDuration>
-                <properties>
-                    <entry>
-                        <key>Log Level</key>
-                        <value>info</value>
-                    </entry>
-                    <entry>
-                        <key>Log Payload</key>
-                        <value>false</value>
-                    </entry>
-                    <entry>
-                        <key>Attributes to Log</key>
-                    </entry>
-                    <entry>
-                        <key>attributes-to-log-regex</key>
-                        <value>.*</value>
-                    </entry>
-                    <entry>
-                        <key>Attributes to Ignore</key>
-                    </entry>
-                    <entry>
-                        <key>attributes-to-ignore-regex</key>
-                    </entry>
-                    <entry>
-                        <key>Log prefix</key>
-                    </entry>
-                    <entry>
-                        <key>character-set</key>
-                        <value>UTF-8</value>
-                    </entry>
-                </properties>
-                <runDurationMillis>0</runDurationMillis>
-                <schedulingPeriod>0 sec</schedulingPeriod>
-                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                <yieldDuration>1 sec</yieldDuration>
-            </config>
-            <executionNodeRestricted>false</executionNodeRestricted>
-            <name>LogAttribute</name>
-            <relationships>
-                <autoTerminate>true</autoTerminate>
-                <name>success</name>
-            </relationships>
-            <state>STOPPED</state>
-            <style/>
-            <type>org.apache.nifi.processors.standard.LogAttribute</type>
         </processors>
         <processors>
             <id>54802821-b9c4-3251-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1504.0</x>
-                <y>520.0</y>
+                <x>1950.356689453125</x>
+                <y>792.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -2957,7 +3405,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
         </processors>
@@ -2965,8 +3413,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>57ae37ae-add2-355c-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>8.0</x>
-                <y>1440.0</y>
+                <x>222.356689453125</x>
+                <y>1704.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -3069,7 +3517,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ReplaceText</type>
         </processors>
@@ -3077,8 +3525,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>585d9073-1bda-3b42-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1504.0</x>
-                <y>1896.0</y>
+                <x>2190.356689453125</x>
+                <y>2136.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -3385,7 +3833,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>true</autoTerminate>
                 <name>Retry</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.InvokeHTTP</type>
         </processors>
@@ -3393,8 +3841,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>5d81b369-b2b9-3464-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>488.0</x>
-                <y>520.0</y>
+                <x>703.9595947265625</x>
+                <y>784.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -3497,7 +3945,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ReplaceText</type>
         </processors>
@@ -3505,8 +3953,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>62c8c99f-d4e3-3a30-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1504.0</x>
-                <y>736.0</y>
+                <x>1950.356689453125</x>
+                <y>1000.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -3603,7 +4051,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>true</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
         </processors>
@@ -3611,8 +4059,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>6551333c-9696-3ff8-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>8.0</x>
-                <y>1672.0</y>
+                <x>222.356689453125</x>
+                <y>1936.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -3715,7 +4163,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ReplaceText</type>
         </processors>
@@ -3723,8 +4171,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>684ec6c9-8e4e-3aec-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>2008.0</x>
-                <y>48.0</y>
+                <x>2702.356689453125</x>
+                <y>272.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -3829,17 +4277,23 @@ for AlarmID = 485, 486, 487, 488</label>
                     </entry>
                     <entry>
                         <key>SQL select query</key>
-                        <value> SELECT '${imo}' as imo, '${callsign}' as callsign, '${officialnumber}' as officialnumber, '${MMSI}' as mmsi, '${vesselName}' as vesselName,
+                        <value> SELECT IIF(shp.IMO is null OR shp.IMO = 0, '', CONVERT(nvarchar,shp.IMO)) as imo, IIF(shp.CallSign is null, '', CONVERT(nvarchar, shp.CallSign)) as callsign, '${officialnumber}' as officialnumber, '${MMSI}' as mmsi, IIF(shp.Name is null, '', CONVERT(nvarchar, shp.Name)) as vesselName,
   Format(evt.TimeStmp, 'dd/MM/yy HH:mm:ss') as time,
     CASE
-       WHEN evt.AlarmID = 485 THEN '0'
-       WHEN evt.AlarmID = 486 THEN '1'
-	   WHEN evt.AlarmID = 487 THEN '2'
-	   WHEN evt.AlarmID = 488 THEN '3'
-    END as visitStatus, 
-  zon.ZoneName as berth 
+       WHEN evt.AlarmID = 485 THEN '0' 
+       WHEN evt.AlarmID = 486 THEN '2' 
+	   WHEN evt.AlarmID = 487 THEN '1' 
+	   WHEN evt.AlarmID = 488 THEN '7' 
+    END as visitStatusId, 
+    CASE
+       WHEN evt.AlarmID = 485 THEN ''
+       WHEN evt.AlarmID = 486 THEN ''
+	   WHEN evt.AlarmID = 487 THEN zon.ZoneName
+	   WHEN evt.AlarmID = 488 THEN zon.ZoneName
+    END as zone 
   FROM Events evt
   LEFT JOIN Zones zon on zon.ZoneID = evt.ZoneID
+  LEFT JOIN ShipList shp on shp.MMSI = evt.MMSI
   WHERE EventID=${EventID}</value>
                     </entry>
                     <entry>
@@ -3897,7 +4351,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ExecuteSQL</type>
         </processors>
@@ -3905,8 +4359,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>7397187a-17b3-3b00-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>488.0</x>
-                <y>736.0</y>
+                <x>703.9595947265625</x>
+                <y>1000.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -4214,6 +4668,322 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>true</autoTerminate>
                 <name>Retry</name>
             </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.InvokeHTTP</type>
+        </processors>
+        <processors>
+            <id>741b892b-5573-319f-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>3038.356689453125</x>
+                <y>1968.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>HTTP Method</key>
+                        <value>
+                            <name>HTTP Method</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Remote URL</key>
+                        <value>
+                            <name>Remote URL</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>SSL Context Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+                            <name>SSL Context Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Connection Timeout</key>
+                        <value>
+                            <name>Connection Timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Read Timeout</key>
+                        <value>
+                            <name>Read Timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Include Date Header</key>
+                        <value>
+                            <name>Include Date Header</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Follow Redirects</key>
+                        <value>
+                            <name>Follow Redirects</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Send</key>
+                        <value>
+                            <name>Attributes to Send</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Basic Authentication Username</key>
+                        <value>
+                            <name>Basic Authentication Username</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Basic Authentication Password</key>
+                        <value>
+                            <name>Basic Authentication Password</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>proxy-configuration-service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.proxy.ProxyConfigurationService</identifiesControllerService>
+                            <name>proxy-configuration-service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Proxy Host</key>
+                        <value>
+                            <name>Proxy Host</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Proxy Port</key>
+                        <value>
+                            <name>Proxy Port</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Proxy Type</key>
+                        <value>
+                            <name>Proxy Type</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>invokehttp-proxy-user</key>
+                        <value>
+                            <name>invokehttp-proxy-user</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>invokehttp-proxy-password</key>
+                        <value>
+                            <name>invokehttp-proxy-password</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Put Response Body In Attribute</key>
+                        <value>
+                            <name>Put Response Body In Attribute</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Length To Put In Attribute</key>
+                        <value>
+                            <name>Max Length To Put In Attribute</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Digest Authentication</key>
+                        <value>
+                            <name>Digest Authentication</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Always Output Response</key>
+                        <value>
+                            <name>Always Output Response</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Add Response Headers to Request</key>
+                        <value>
+                            <name>Add Response Headers to Request</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Content-Type</key>
+                        <value>
+                            <name>Content-Type</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>send-message-body</key>
+                        <value>
+                            <name>send-message-body</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Use Chunked Encoding</key>
+                        <value>
+                            <name>Use Chunked Encoding</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Penalize on "No Retry"</key>
+                        <value>
+                            <name>Penalize on "No Retry"</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>use-etag</key>
+                        <value>
+                            <name>use-etag</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>etag-max-cache-size</key>
+                        <value>
+                            <name>etag-max-cache-size</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>HTTP Method</key>
+                        <value>POST</value>
+                    </entry>
+                    <entry>
+                        <key>Remote URL</key>
+                        <value>http://6322-60-54-119-41.ngrok.io/nifihook</value>
+                    </entry>
+                    <entry>
+                        <key>SSL Context Service</key>
+                    </entry>
+                    <entry>
+                        <key>Connection Timeout</key>
+                        <value>30 secs</value>
+                    </entry>
+                    <entry>
+                        <key>Read Timeout</key>
+                        <value>15 secs</value>
+                    </entry>
+                    <entry>
+                        <key>Include Date Header</key>
+                        <value>True</value>
+                    </entry>
+                    <entry>
+                        <key>Follow Redirects</key>
+                        <value>True</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Send</key>
+                    </entry>
+                    <entry>
+                        <key>Basic Authentication Username</key>
+                    </entry>
+                    <entry>
+                        <key>Basic Authentication Password</key>
+                    </entry>
+                    <entry>
+                        <key>proxy-configuration-service</key>
+                    </entry>
+                    <entry>
+                        <key>Proxy Host</key>
+                    </entry>
+                    <entry>
+                        <key>Proxy Port</key>
+                    </entry>
+                    <entry>
+                        <key>Proxy Type</key>
+                        <value>http</value>
+                    </entry>
+                    <entry>
+                        <key>invokehttp-proxy-user</key>
+                    </entry>
+                    <entry>
+                        <key>invokehttp-proxy-password</key>
+                    </entry>
+                    <entry>
+                        <key>Put Response Body In Attribute</key>
+                    </entry>
+                    <entry>
+                        <key>Max Length To Put In Attribute</key>
+                        <value>256</value>
+                    </entry>
+                    <entry>
+                        <key>Digest Authentication</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Always Output Response</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Add Response Headers to Request</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Content-Type</key>
+                        <value>${mime.type}</value>
+                    </entry>
+                    <entry>
+                        <key>send-message-body</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Use Chunked Encoding</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Penalize on "No Retry"</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>use-etag</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>etag-max-cache-size</key>
+                        <value>10MB</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>InvokeHTTP</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>Failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>No Retry</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>Original</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>Response</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>Retry</name>
+            </relationships>
             <state>STOPPED</state>
             <style/>
             <type>org.apache.nifi.processors.standard.InvokeHTTP</type>
@@ -4222,8 +4992,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>76bfe4bd-c67e-36ff-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1008.0</x>
-                <y>48.0</y>
+                <x>1222.356689453125</x>
+                <y>312.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -4330,7 +5100,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
         </processors>
@@ -4338,8 +5108,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>7e4cf3e9-ec32-3f7c-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>8.0</x>
-                <y>520.0</y>
+                <x>222.356689453125</x>
+                <y>784.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -4396,7 +5166,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>split</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.SplitJson</type>
         </processors>
@@ -4404,8 +5174,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>90eae5bf-2eb6-368c-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1008.0</x>
-                <y>736.0</y>
+                <x>1222.356689453125</x>
+                <y>1000.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -4458,7 +5228,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
         </processors>
@@ -4466,8 +5236,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>966e1622-98ad-37e2-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1504.0</x>
-                <y>296.0</y>
+                <x>1526.356689453125</x>
+                <y>560.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -4554,7 +5324,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>true</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
         </processors>
@@ -4562,8 +5332,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>982148dd-0ebd-3ab7-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>8.0</x>
-                <y>1200.0</y>
+                <x>222.356689453125</x>
+                <y>1464.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -4871,7 +5641,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>true</autoTerminate>
                 <name>Retry</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.InvokeHTTP</type>
         </processors>
@@ -4879,8 +5649,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>a0cbfba8-1a49-31b6-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1504.0</x>
-                <y>1424.0</y>
+                <x>2182.356689453125</x>
+                <y>1664.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -4933,16 +5703,130 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
+        </processors>
+        <processors>
+            <id>b45583ed-85a2-3197-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>1686.356689453125</x>
+                <y>1432.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>
+                            <name>Log Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>
+                            <name>Log Payload</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                        <value>
+                            <name>Attributes to Log</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>
+                            <name>attributes-to-log-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                        <value>
+                            <name>Attributes to Ignore</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                        <value>
+                            <name>attributes-to-ignore-regex</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                        <value>
+                            <name>Log prefix</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Log Level</key>
+                        <value>info</value>
+                    </entry>
+                    <entry>
+                        <key>Log Payload</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Log</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-log-regex</key>
+                        <value>.*</value>
+                    </entry>
+                    <entry>
+                        <key>Attributes to Ignore</key>
+                    </entry>
+                    <entry>
+                        <key>attributes-to-ignore-regex</key>
+                    </entry>
+                    <entry>
+                        <key>Log prefix</key>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>LogAttribute</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.LogAttribute</type>
         </processors>
         <processors>
             <id>b7e4cb8b-a80e-3def-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>8.0</x>
-                <y>48.0</y>
+                <x>488.0</x>
+                <y>310.3567199707031</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -5076,7 +5960,7 @@ for AlarmID = 485, 486, 487, 488</label>
                     </entry>
                     <entry>
                         <key>Columns to Return</key>
-                        <value>EventID,AlarmID,ZoneID,MMSI,TimeStmp</value>
+                        <value>EventID,AlarmID,ZoneID,MMSI,TimeStmp, 2 as Db</value>
                     </entry>
                     <entry>
                         <key>db-fetch-where-clause</key>
@@ -5140,16 +6024,204 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.QueryDatabaseTable</type>
+        </processors>
+        <processors>
+            <id>bc3b1f79-58d3-371e-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>2702.356689453125</x>
+                <y>64.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>Database Connection Pooling Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>sql-pre-query</key>
+                        <value>
+                            <name>sql-pre-query</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>SQL select query</key>
+                        <value>
+                            <name>SQL select query</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>sql-post-query</key>
+                        <value>
+                            <name>sql-post-query</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>
+                            <name>Max Wait Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>dbf-normalize</key>
+                        <value>
+                            <name>dbf-normalize</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>dbf-user-logical-types</key>
+                        <value>
+                            <name>dbf-user-logical-types</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>compression-format</key>
+                        <value>
+                            <name>compression-format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>dbf-default-precision</key>
+                        <value>
+                            <name>dbf-default-precision</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>dbf-default-scale</key>
+                        <value>
+                            <name>dbf-default-scale</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>esql-max-rows</key>
+                        <value>
+                            <name>esql-max-rows</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>esql-output-batch-size</key>
+                        <value>
+                            <name>esql-output-batch-size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>esql-fetch-size</key>
+                        <value>
+                            <name>esql-fetch-size</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>7526c595-b6de-3f91-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>sql-pre-query</key>
+                    </entry>
+                    <entry>
+                        <key>SQL select query</key>
+                        <value> SELECT IIF(shp.IMO is null OR shp.IMO = 0, '', CONVERT(nvarchar,shp.IMO)) as imo, IIF(shp.CallSign is null, '', CONVERT(nvarchar, shp.CallSign)) as callsign, '${officialnumber}' as officialnumber, '${MMSI}' as mmsi, IIF(shp.Name is null, '', CONVERT(nvarchar, shp.Name)) as vesselName,
+  Format(evt.TimeStmp, 'dd/MM/yy HH:mm:ss') as time,
+    CASE
+       WHEN evt.AlarmID = 485 THEN '0' 
+       WHEN evt.AlarmID = 486 THEN '2' 
+	   WHEN evt.AlarmID = 487 THEN '1' 
+	   WHEN evt.AlarmID = 488 THEN '7' 
+    END as visitStatusId, 
+    CASE
+       WHEN evt.AlarmID = 485 THEN ''
+       WHEN evt.AlarmID = 486 THEN ''
+	   WHEN evt.AlarmID = 487 THEN zon.ZoneName
+	   WHEN evt.AlarmID = 488 THEN zon.ZoneName
+    END as zone 
+  FROM Events evt
+  LEFT JOIN Zones zon on zon.ZoneID = evt.ZoneID
+  LEFT JOIN ShipList shp on shp.MMSI = evt.MMSI
+  WHERE EventID=${EventID}</value>
+                    </entry>
+                    <entry>
+                        <key>sql-post-query</key>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>0 seconds</value>
+                    </entry>
+                    <entry>
+                        <key>dbf-normalize</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>dbf-user-logical-types</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>compression-format</key>
+                        <value>NONE</value>
+                    </entry>
+                    <entry>
+                        <key>dbf-default-precision</key>
+                        <value>10</value>
+                    </entry>
+                    <entry>
+                        <key>dbf-default-scale</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>esql-max-rows</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>esql-output-batch-size</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>esql-fetch-size</key>
+                        <value>0</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>ExecuteSQL</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.ExecuteSQL</type>
         </processors>
         <processors>
             <id>bd3ff503-1d4c-39eb-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1504.0</x>
-                <y>1200.0</y>
+                <x>2182.356689453125</x>
+                <y>1440.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -5441,7 +6513,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <name>Failure</name>
             </relationships>
             <relationships>
-                <autoTerminate>true</autoTerminate>
+                <autoTerminate>false</autoTerminate>
                 <name>No Retry</name>
             </relationships>
             <relationships>
@@ -5453,10 +6525,10 @@ for AlarmID = 485, 486, 487, 488</label>
                 <name>Response</name>
             </relationships>
             <relationships>
-                <autoTerminate>true</autoTerminate>
+                <autoTerminate>false</autoTerminate>
                 <name>Retry</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.InvokeHTTP</type>
         </processors>
@@ -5464,8 +6536,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>c7507f3e-d0fc-3c8a-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>488.0</x>
-                <y>1896.0</y>
+                <x>702.356689453125</x>
+                <y>2160.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -5773,7 +6845,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>true</autoTerminate>
                 <name>Retry</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.InvokeHTTP</type>
         </processors>
@@ -5781,8 +6853,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>d41bd461-deec-31b1-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>2016.0</x>
-                <y>976.0</y>
+                <x>2702.356689453125</x>
+                <y>784.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -5869,7 +6941,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>true</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
         </processors>
@@ -5877,8 +6949,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>e59fa3db-abcf-3750-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1000.0</x>
-                <y>1672.0</y>
+                <x>1214.356689453125</x>
+                <y>1932.794189453125</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -5981,16 +7053,78 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ReplaceText</type>
+        </processors>
+        <processors>
+            <id>e6dbe8f5-c29b-39c9-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>1950.356689453125</x>
+                <y>56.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Routing Strategy</key>
+                        <value>
+                            <name>Routing Strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>isDb1</key>
+                        <value>
+                            <name>isDb1</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Routing Strategy</key>
+                        <value>Route to Property name</value>
+                    </entry>
+                    <entry>
+                        <key>isDb1</key>
+                        <value>${Db:toNumber():equals(1)}</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>RouteOnAttribute</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>isDb1</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>unmatched</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
         </processors>
         <processors>
             <id>ea763d8d-59af-35d7-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>8.0</x>
-                <y>736.0</y>
+                <x>222.356689453125</x>
+                <y>1000.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -6030,6 +7164,12 @@ for AlarmID = 485, 486, 487, 488</label>
                         <key>AlarmID</key>
                         <value>
                             <name>AlarmID</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Db</key>
+                        <value>
+                            <name>Db</name>
                         </value>
                     </entry>
                     <entry>
@@ -6082,6 +7222,10 @@ for AlarmID = 485, 486, 487, 488</label>
                         <value>$.AlarmID</value>
                     </entry>
                     <entry>
+                        <key>Db</key>
+                        <value>$.Db</value>
+                    </entry>
+                    <entry>
                         <key>EventID</key>
                         <value>$.EventID</value>
                     </entry>
@@ -6117,7 +7261,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>true</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
         </processors>
@@ -6125,8 +7269,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>eeb1fd4a-5865-33e5-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1000.0</x>
-                <y>1424.0</y>
+                <x>1214.356689453125</x>
+                <y>1684.794189453125</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -6229,7 +7373,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ReplaceText</type>
         </processors>
@@ -6237,8 +7381,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>f2d01320-2fe8-3db6-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>1504.0</x>
-                <y>2144.0</y>
+                <x>2190.356689453125</x>
+                <y>2384.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -6291,7 +7435,7 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
         </processors>
@@ -6299,8 +7443,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>f6f69378-d9ab-3a05-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>2560.0</x>
-                <y>1464.0</y>
+                <x>3038.356689453125</x>
+                <y>1752.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -6487,7 +7631,7 @@ for AlarmID = 485, 486, 487, 488</label>
                     </entry>
                     <entry>
                         <key>Remote URL</key>
-                        <value>http://ccee-60-54-119-41.ngrok.io/nifihook</value>
+                        <value>http://4f5e-60-54-119-41.ngrok.io/nifihook</value>
                     </entry>
                     <entry>
                         <key>SSL Context Service</key>
@@ -6615,8 +7759,8 @@ for AlarmID = 485, 486, 487, 488</label>
             <id>fcefa7fd-0cd3-3426-0000-000000000000</id>
             <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
             <position>
-                <x>2560.0</x>
-                <y>1200.0</y>
+                <x>3334.356689453125</x>
+                <y>1440.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -6719,10 +7863,217 @@ for AlarmID = 485, 486, 487, 488</label>
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ReplaceText</type>
         </processors>
+        <processors>
+            <id>fe7528c8-9dcb-3166-0000-000000000000</id>
+            <parentGroupId>9421eb2d-b078-313a-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>310.3567199707031</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>Database Connection Pooling Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>db-fetch-db-type</key>
+                        <value>
+                            <name>db-fetch-db-type</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Table Name</key>
+                        <value>
+                            <name>Table Name</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Columns to Return</key>
+                        <value>
+                            <name>Columns to Return</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>db-fetch-where-clause</key>
+                        <value>
+                            <name>db-fetch-where-clause</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>db-fetch-sql-query</key>
+                        <value>
+                            <name>db-fetch-sql-query</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum-value Columns</key>
+                        <value>
+                            <name>Maximum-value Columns</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>
+                            <name>Max Wait Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fetch Size</key>
+                        <value>
+                            <name>Fetch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>qdbt-max-rows</key>
+                        <value>
+                            <name>qdbt-max-rows</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>qdbt-output-batch-size</key>
+                        <value>
+                            <name>qdbt-output-batch-size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>qdbt-max-frags</key>
+                        <value>
+                            <name>qdbt-max-frags</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>dbf-normalize</key>
+                        <value>
+                            <name>dbf-normalize</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>transaction-isolation-level</key>
+                        <value>
+                            <name>transaction-isolation-level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>dbf-user-logical-types</key>
+                        <value>
+                            <name>dbf-user-logical-types</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>dbf-default-precision</key>
+                        <value>
+                            <name>dbf-default-precision</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>dbf-default-scale</key>
+                        <value>
+                            <name>dbf-default-scale</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>PRIMARY</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>7526c595-b6de-3f91-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>db-fetch-db-type</key>
+                        <value>MS SQL 2012+</value>
+                    </entry>
+                    <entry>
+                        <key>Table Name</key>
+                        <value>Events</value>
+                    </entry>
+                    <entry>
+                        <key>Columns to Return</key>
+                        <value>EventID,AlarmID,ZoneID,MMSI,TimeStmp, 1 as Db</value>
+                    </entry>
+                    <entry>
+                        <key>db-fetch-where-clause</key>
+                        <value>AlarmID in (485, 486, 487, 488)</value>
+                    </entry>
+                    <entry>
+                        <key>db-fetch-sql-query</key>
+                    </entry>
+                    <entry>
+                        <key>Maximum-value Columns</key>
+                        <value>EventID</value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>0 seconds</value>
+                    </entry>
+                    <entry>
+                        <key>Fetch Size</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>qdbt-max-rows</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>qdbt-output-batch-size</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>qdbt-max-frags</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>dbf-normalize</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>transaction-isolation-level</key>
+                    </entry>
+                    <entry>
+                        <key>dbf-user-logical-types</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>dbf-default-precision</key>
+                        <value>10</value>
+                    </entry>
+                    <entry>
+                        <key>dbf-default-scale</key>
+                        <value>0</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>true</executionNodeRestricted>
+            <name>QueryDatabaseTable</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.QueryDatabaseTable</type>
+        </processors>
     </snippet>
-    <timestamp>09/05/2022 07:05:24 UTC</timestamp>
+    <timestamp>12/05/2022 06:43:07 UTC</timestamp>
 </template>
