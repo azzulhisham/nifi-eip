@@ -40,7 +40,7 @@ def getUserDetail(password):
         query += 'JOIN public."Roles" on "Roles"."Id" = "UserRoles"."Id" '
         query += 'WHERE "Users"."IsDeleted" = false AND "Tenants"."IsDeleted" = false AND "Roles"."IsDeleted" = false '
         query += 'AND "Users"."IsActive" = true AND "Tenants"."IsActive" = true '
-        query += 'AND "Users"."EmailAddress" = \'{0}\' AND "Users"."Password" = \'{1}\' AND "Tenants"."TenancyName" = \'{2}\''
+        query += 'AND ("Users"."EmailAddress" = \'{0}\' OR "Users"."UserName" = \'{0}\') AND "Users"."Password" = \'{1}\' AND "Tenants"."TenancyName" = \'{2}\''
 
         pg_cursor.execute(query.format(objPayload['email'], password, objPayload['tenant']))
 
@@ -111,5 +111,15 @@ else:
 
 
 print(objPayload)
+
+
+#SELECT "Users"."UserName","Users"."EmailAddress","Users"."Password","Tenants"."TenancyName","Roles"."Name" as "UserRole"
+#FROM public."Users"
+#JOIN public."Tenants" on "Tenants"."Id" = "Users"."TenantId"
+#JOIN public."UserRoles" on "UserRoles"."TenantId" = "Tenants"."Id" and "UserRoles"."UserId" = "Users"."Id"
+#JOIN public."Roles" on "Roles"."Id" = "UserRoles"."Id"
+#WHERE "Users"."IsDeleted" = false AND "Tenants"."IsDeleted" = false AND "Roles"."IsDeleted" = false 
+#AND "Users"."IsActive" = true AND "Tenants"."IsActive" = true 
+#AND ("Users"."EmailAddress" = 'cgiis_user' OR "Users"."UserName" = 'cgiis_user') AND "Users"."Password" = 'Q0dpaXMyMDIyMDQk' AND "Tenants"."TenancyName" = 'admin'
 
 

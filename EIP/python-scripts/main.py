@@ -1,12 +1,12 @@
 import sys
 import jwt
 import datetime
-import pyodbc
+#import pyodbc
 import base64
-import psycopg2
+#import psycopg2
 
 #encode string to base64
-acode = "123qwe"
+acode = "CGiis202204$"
 enc = base64.b64encode(bytes(acode, 'utf-8'))
 print(enc)
 #convert bytes to string
